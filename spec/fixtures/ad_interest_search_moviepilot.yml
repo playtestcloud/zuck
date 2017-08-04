@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://graph.facebook.com/v2.4/search?access_token=DUMMY_TOKEN&q=moviepilot&type=adinterest
+    uri: https://graph.facebook.com/v2.9/search?access_token=DUMMY_TOKEN&q=moviepilot&type=adinterest
     body:
       encoding: US-ASCII
       string: ''
@@ -75,6 +75,6 @@ http_interactions:
         S4kgaoZmjCnFVHFQpQFOdKARFDgzjFYd67a4NLoU3XrEgDBCsvMwFBGU5krp
         KqYCoAolPw/AuCiCfcUaoLH9R9+Dg3FeBnmqQ3KN+7CrjnyrGVCCOc8ATOoC
         KP++Ooxy2c/2l+cADerfY7k+3gHI8YjMHwQAAA==
-    http_version: 
+    http_version:
   recorded_at: Thu, 10 Sep 2015 09:47:15 GMT
 recorded_with: VCR 2.3.0

@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://graph.facebook.com/v2.4/6029725594066?access_token=DUMMY_TOKEN&fields=id,account_id,adgroup_review_feedback,adgroup_status,bid_amount,campaign_id,campaign_group_id,created_time,creative,failed_delivery_checks,name,targeting,tracking_specs,updated_time
+    uri: https://graph.facebook.com/v2.9/6029725594066?access_token=DUMMY_TOKEN&fields=id,account_id,adgroup_review_feedback,adgroup_status,bid_amount,campaign_id,campaign_group_id,created_time,creative,failed_delivery_checks,name,targeting,tracking_specs,updated_time
     body:
       encoding: US-ASCII
       string: ''
@@ -34,7 +34,7 @@ http_interactions:
       Cache-Control:
       - no-store
       Facebook-Api-Version:
-      - v2.4
+      - v2.9
       Expires:
       - Sat, 01 Jan 2000 00:00:00 GMT
       X-Fb-Debug:
@@ -49,6 +49,6 @@ http_interactions:
       encoding: US-ASCII
       string: ! '{"error":{"message":"(#100) Tried accessing nonexisting field (adgroup_review_feedback)
         on node type (AdCampaignGroup)","type":"OAuthException","code":100}}'
-    http_version: 
+    http_version:
   recorded_at: Thu, 10 Sep 2015 09:47:28 GMT
 recorded_with: VCR 2.3.0

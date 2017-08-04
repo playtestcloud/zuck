@@ -50,5 +50,4 @@ module Zuck
       graph.search(interest, type: :adinterest).map(&:with_indifferent_access)
     end
   end
-
 end

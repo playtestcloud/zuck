@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: post
-    uri: https://graph.facebook.com/v2.4/6029725594066
+    uri: https://graph.facebook.com/v2.9/6029725594066
     body:
       encoding: US-ASCII
       string: access_token=DUMMY_TOKEN&method=delete
@@ -31,7 +31,7 @@ http_interactions:
       Cache-Control:
       - private, no-cache, no-store, must-revalidate
       Facebook-Api-Version:
-      - v2.4
+      - v2.9
       Expires:
       - Sat, 01 Jan 2000 00:00:00 GMT
       X-Fb-Debug:
@@ -45,11 +45,11 @@ http_interactions:
     body:
       encoding: US-ASCII
       string: ! '{"success":true}'
-    http_version: 
+    http_version:
   recorded_at: Thu, 10 Sep 2015 09:47:35 GMT
 - request:
     method: post
-    uri: https://graph.facebook.com/v2.4/6029725593266
+    uri: https://graph.facebook.com/v2.9/6029725593266
     body:
       encoding: US-ASCII
       string: access_token=DUMMY_TOKEN&method=delete
@@ -78,7 +78,7 @@ http_interactions:
       Cache-Control:
       - private, no-cache, no-store, must-revalidate
       Facebook-Api-Version:
-      - v2.4
+      - v2.9
       Expires:
       - Sat, 01 Jan 2000 00:00:00 GMT
       X-Fb-Debug:
@@ -92,6 +92,6 @@ http_interactions:
     body:
       encoding: US-ASCII
       string: ! '{"success":true}'
-    http_version: 
+    http_version:
   recorded_at: Thu, 10 Sep 2015 09:47:37 GMT
 recorded_with: VCR 2.3.0

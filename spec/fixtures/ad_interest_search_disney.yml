@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://graph.facebook.com/v2.4/search?access_token=DUMMY_TOKEN&q=disney&type=adinterest
+    uri: https://graph.facebook.com/v2.9/search?access_token=DUMMY_TOKEN&q=disney&type=adinterest
     body:
       encoding: US-ASCII
       string: ''
@@ -77,6 +77,6 @@ http_interactions:
         SDrnh2SSaJ4WZCjZkPFQowll1Bxxyraf6/RHF+o29lgm07IQ9p+WrW7HcCUu
         tky3ECKq33/PZ20demjhA7wt0V09g759EsJQSuVpuP2BaClEOhjdP5BLD5Vd
         pW786tUkWpnTmn8OZLL8AZ7kr85bBAAA
-    http_version: 
+    http_version:
   recorded_at: Thu, 10 Sep 2015 09:47:14 GMT
 recorded_with: VCR 2.3.0

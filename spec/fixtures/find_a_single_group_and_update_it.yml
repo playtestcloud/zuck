@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://graph.facebook.com/v2.4/6029725596866?access_token=DUMMY_TOKEN&fields=id,account_id,adgroup_review_feedback,adgroup_status,bid_amount,campaign_id,campaign_group_id,created_time,creative,failed_delivery_checks,name,targeting,tracking_specs,updated_time
+    uri: https://graph.facebook.com/v2.9/6029725596866?access_token=DUMMY_TOKEN&fields=id,account_id,adgroup_review_feedback,adgroup_status,bid_amount,campaign_id,campaign_group_id,created_time,creative,failed_delivery_checks,name,targeting,tracking_specs,updated_time
     body:
       encoding: US-ASCII
       string: ''
@@ -33,7 +33,7 @@ http_interactions:
       Cache-Control:
       - private, no-cache, no-store, must-revalidate
       Facebook-Api-Version:
-      - v2.4
+      - v2.9
       Expires:
       - Sat, 01 Jan 2000 00:00:00 GMT
       X-Fb-Debug:
@@ -48,11 +48,11 @@ http_interactions:
       encoding: US-ASCII
       string: ! '{"id":"6029725596866","account_id":"367106653","adgroup_status":"PENDING_REVIEW","bid_amount":5,"campaign_id":"6029725595466","campaign_group_id":"6029725594066","created_time":"2015-09-10T02:47:25-0700","creative":{"id":"6024299683866"},"name":"Rap
         like me","targeting":{"age_max":65,"age_min":18,"geo_locations":{"countries":["US","GB"],"location_types":["home"]},"page_types":["desktopfeed","mobileexternal","mobilefeed","rightcolumn"]},"tracking_specs":[{"action.type":["link_click"],"object":["10150219314478408"]},{"action.type":["page_engagement"],"page":["158352134203230"]}],"updated_time":"2015-09-10T02:47:25-0700"}'
-    http_version: 
+    http_version:
   recorded_at: Thu, 10 Sep 2015 09:47:29 GMT
 - request:
     method: post
-    uri: https://graph.facebook.com/v2.4/6029725596866
+    uri: https://graph.facebook.com/v2.9/6029725596866
     body:
       encoding: US-ASCII
       string: ! "-------------RubyMultipartPost\r\nContent-Disposition: form-data;
@@ -107,7 +107,7 @@ http_interactions:
       Cache-Control:
       - private, no-cache, no-store, must-revalidate
       Facebook-Api-Version:
-      - v2.4
+      - v2.9
       Expires:
       - Sat, 01 Jan 2000 00:00:00 GMT
       Vary:
@@ -126,11 +126,11 @@ http_interactions:
         old name","targeting":{"age_max":65,"age_min":18,"geo_locations":{"countries":["US","GB"],"location_types":["home"]},"page_types":["desktopfeed","mobileexternal","mobilefeed","rightcolumn"]},"tracking_specs":[{"action.type":["link_click"],"object":["10150219314478408"]},{"action.type":["page_engagement"],"page":["158352134203230"]}],"updated_time":1441878449,"created_time":1441878445,"bid_amount":5}},"creatives":{"6024299683866":{"id":"6024299683866","body":"bloody
         body","image_hash":"1040d95f6a3505d0da0c8502cc87376a","image_url":"https:\/\/fbcdn-creative-a.akamaihd.net\/hads-ak-xaf1\/t45.1600-4\/s110x80\/10736784_6024299683266_385998835_n.png","actor_id":"158352134203230","object_type":"DOMAIN","object_url":"http:\/\/moviepilot.com\/","title":"bloody
         title"}}}}'
-    http_version: 
+    http_version:
   recorded_at: Thu, 10 Sep 2015 09:47:29 GMT
 - request:
     method: post
-    uri: https://graph.facebook.com/v2.4/6029725596866
+    uri: https://graph.facebook.com/v2.9/6029725596866
     body:
       encoding: US-ASCII
       string: ! "-------------RubyMultipartPost\r\nContent-Disposition: form-data;
@@ -185,7 +185,7 @@ http_interactions:
       Cache-Control:
       - private, no-cache, no-store, must-revalidate
       Facebook-Api-Version:
-      - v2.4
+      - v2.9
       Expires:
       - Sat, 01 Jan 2000 00:00:00 GMT
       Vary:
@@ -204,11 +204,11 @@ http_interactions:
         new name","targeting":{"age_max":65,"age_min":18,"geo_locations":{"countries":["US","GB"],"location_types":["home"]},"page_types":["desktopfeed","mobileexternal","mobilefeed","rightcolumn"]},"tracking_specs":[{"action.type":["link_click"],"object":["10150219314478408"]},{"action.type":["page_engagement"],"page":["158352134203230"]}],"updated_time":1441878450,"created_time":1441878445,"bid_amount":5}},"creatives":{"6024299683866":{"id":"6024299683866","body":"bloody
         body","image_hash":"1040d95f6a3505d0da0c8502cc87376a","image_url":"https:\/\/fbcdn-creative-a.akamaihd.net\/hads-ak-xaf1\/t45.1600-4\/s110x80\/10736784_6024299683266_385998835_n.png","actor_id":"158352134203230","object_type":"DOMAIN","object_url":"http:\/\/moviepilot.com\/","title":"bloody
         title"}}}}'
-    http_version: 
+    http_version:
   recorded_at: Thu, 10 Sep 2015 09:47:30 GMT
 - request:
     method: get
-    uri: https://graph.facebook.com/v2.4/6029725596866?access_token=DUMMY_TOKEN&fields=id,account_id,adgroup_review_feedback,adgroup_status,bid_amount,campaign_id,campaign_group_id,created_time,creative,failed_delivery_checks,name,targeting,tracking_specs,updated_time
+    uri: https://graph.facebook.com/v2.9/6029725596866?access_token=DUMMY_TOKEN&fields=id,account_id,adgroup_review_feedback,adgroup_status,bid_amount,campaign_id,campaign_group_id,created_time,creative,failed_delivery_checks,name,targeting,tracking_specs,updated_time
     body:
       encoding: US-ASCII
       string: ''
@@ -239,7 +239,7 @@ http_interactions:
       Cache-Control:
       - private, no-cache, no-store, must-revalidate
       Facebook-Api-Version:
-      - v2.4
+      - v2.9
       Expires:
       - Sat, 01 Jan 2000 00:00:00 GMT
       X-Fb-Debug:
@@ -254,6 +254,6 @@ http_interactions:
       encoding: US-ASCII
       string: ! '{"id":"6029725596866","account_id":"367106653","adgroup_status":"PENDING_REVIEW","bid_amount":5,"campaign_id":"6029725595466","campaign_group_id":"6029725594066","created_time":"2015-09-10T02:47:25-0700","creative":{"id":"6024299683866"},"name":"My
         new name","targeting":{"age_max":65,"age_min":18,"geo_locations":{"countries":["US","GB"],"location_types":["home"]},"page_types":["desktopfeed","mobileexternal","mobilefeed","rightcolumn"]},"tracking_specs":[{"action.type":["link_click"],"object":["10150219314478408"]},{"action.type":["page_engagement"],"page":["158352134203230"]}],"updated_time":"2015-09-10T02:47:30-0700"}'
-    http_version: 
+    http_version:
   recorded_at: Thu, 10 Sep 2015 09:47:30 GMT
 recorded_with: VCR 2.3.0
