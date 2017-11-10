@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: post
-    uri: https://graph.facebook.com/v2.9/act_367106653/adcreatives
+    uri: https://graph.facebook.com/v2.10/act_367106653/adcreatives
     body:
       encoding: US-ASCII
       string: title=bloody+title&body=bloody+body&object_url=http%3A%2F%2Fmoviepilot.com%2F&image_url=http%3A%2F%2Fimages-cdn.moviepilot.com%2Fimage%2Fupload%2Fc_fill%2Ch_246%2Cw_470%2Fv1427727623%2Fmoviepilot.jpg&redownload=1&access_token=DUMMY_TOKEN
@@ -31,7 +31,7 @@ http_interactions:
       Cache-Control:
       - private, no-cache, no-store, must-revalidate
       Facebook-Api-Version:
-      - v2.9
+      - v2.10
       Expires:
       - Sat, 01 Jan 2000 00:00:00 GMT
       X-Fb-Debug:

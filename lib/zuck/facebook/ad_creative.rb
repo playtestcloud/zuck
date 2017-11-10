@@ -1,7 +1,7 @@
 module Zuck
   class AdCreative < RawFbObject
     # Known keys as per
-    # [fb docs](https://developers.facebook.com/docs/marketing-api/reference/ad-creative/v2.9)
+    # [fb docs](https://developers.facebook.com/docs/marketing-api/reference/ad-creative/v2.10)
     known_keys :id,
                :adlabels,
                :applink_treatment,
