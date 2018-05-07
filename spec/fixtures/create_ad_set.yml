@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: post
-    uri: https://graph.facebook.com/v2.10/act_367106653/adcampaigns
+    uri: https://graph.facebook.com/v2.12/act_367106653/adcampaigns
     body:
       encoding: US-ASCII
       string: bid_amount=1&billing_event=IMPRESSIONS&optimization_goal=REACH&name=bloody+ad+set&campaign_status=PAUSED&daily_budget=100&targeting=%7B%27geo_locations%27%3A%7B%27countries%27%3A%5B%27US%27%2C%27GB%27%5D%7D%7D&campaign_group_id=6029725594066&redownload=1&access_token=DUMMY_TOKEN
@@ -31,7 +31,7 @@ http_interactions:
       Cache-Control:
       - private, no-cache, no-store, must-revalidate
       Facebook-Api-Version:
-      - v2.10
+      - v2.12
       Expires:
       - Sat, 01 Jan 2000 00:00:00 GMT
       X-Fb-Debug:

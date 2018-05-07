@@ -7,10 +7,10 @@ Dir[File.expand_path('../zuck/facebook/**/*.rb', __FILE__)].each do |f|
   require f
 end
 
-Koala.config.api_version = 'v2.10' if Koala.config.api_version.nil?
-if Koala.config.api_version != 'v2.10'
-  warn('!!! Zuck was written for Facebook API version v2.10 and may not work!')
-  warn("    The current Koala.config.api_version='#{Koala.config.api_version}' does not match 'v2.10'!")
+Koala.config.api_version = 'v2.12' if Koala.config.api_version.nil?
+if Koala.config.api_version != 'v2.12'
+  warn('!!! Zuck was written for Facebook API version v2.12 and may not work!')
+  warn("    The current Koala.config.api_version='#{Koala.config.api_version}' does not match 'v2.12'!")
 end
 
 module Zuck

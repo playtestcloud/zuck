@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://graph.facebook.com/v2.10/6029725594066/adgroups?access_token=DUMMY_TOKEN&fields=
+    uri: https://graph.facebook.com/v2.12/6029725594066/adgroups?access_token=DUMMY_TOKEN&fields=
     body:
       encoding: US-ASCII
       string: ''
@@ -33,7 +33,7 @@ http_interactions:
       Cache-Control:
       - private, no-cache, no-store, must-revalidate
       Facebook-Api-Version:
-      - v2.10
+      - v2.12
       Expires:
       - Sat, 01 Jan 2000 00:00:00 GMT
       X-Fb-Debug:
