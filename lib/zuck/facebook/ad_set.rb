@@ -10,6 +10,7 @@ module Zuck
     known_keys :account_id,
                :adlabels,
                :adset_schedule,
+               :attribution_spec,
                :bid_amount,
                :bid_info,
                :billing_event,
@@ -20,10 +21,12 @@ module Zuck
                :created_time,
                :creative_sequence,
                :daily_budget,
+               :destination_type,
                :effective_status,
                :end_time,
                :frequency_control_specs,
                :id,
+               :instagram_actor_id,
                :is_autobid,
                :lifetime_budget,
                :lifetime_imps,
@@ -32,12 +35,16 @@ module Zuck
                :pacing_type,
                :promoted_object,
                :recommendations,
+               :recurring_budget_semantics,
                :rf_prediction_id,
                :rtb_flag,
                :start_time,
                :status,
                :targeting,
-               :updated_time
+               :time_based_ad_rotation_id_blocks,
+               :time_based_ad_rotation_intervals,
+               :updated_time,
+               :use_new_app_click
 
     parent_object :ad_account, as: :account_id
     list_path :adsets
