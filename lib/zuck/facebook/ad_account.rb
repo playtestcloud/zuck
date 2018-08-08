@@ -3,7 +3,7 @@ module Zuck
     include Zuck::Helpers
 
     # Known keys as per
-    # [fb docs](https://developers.facebook.com/docs/marketing-api/reference/ad-account/v2.12)
+    # [fb docs](https://developers.facebook.com/docs/marketing-api/reference/ad-account/v3.1)
     known_keys :id,
                :account_id,
                :account_status,
