@@ -37,7 +37,6 @@ module Zuck
                :recommendations,
                :recurring_budget_semantics,
                :rf_prediction_id,
-               :rtb_flag,
                :start_time,
                :status,
                :targeting,
