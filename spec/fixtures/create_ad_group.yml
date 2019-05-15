@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: post
-    uri: https://graph.facebook.com/v3.1/act_367106653/adgroups
+    uri: https://graph.facebook.com/v3.2/act_367106653/adgroups
     body:
       encoding: US-ASCII
       string: name=Rap+like+me&bid_amount=5&creative=%7B%22creative_id%22%3A+6024299683866%7D&campaign_id=6029725595466&redownload=1&access_token=DUMMY_TOKEN
@@ -31,7 +31,7 @@ http_interactions:
       Cache-Control:
       - private, no-cache, no-store, must-revalidate
       Facebook-Api-Version:
-      - v3.1
+      - v3.2
       Expires:
       - Sat, 01 Jan 2000 00:00:00 GMT
       Vary:

@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://graph.facebook.com/v3.1/search?access_token=DUMMY_TOKEN&q=Eminem&type=adinterest
+    uri: https://graph.facebook.com/v3.2/search?access_token=DUMMY_TOKEN&q=Eminem&type=adinterest
     body:
       encoding: US-ASCII
       string: ''
@@ -33,7 +33,7 @@ http_interactions:
       Cache-Control:
       - private, no-cache, no-store, must-revalidate
       Facebook-Api-Version:
-      - v3.1
+      - v3.2
       Expires:
       - Sat, 01 Jan 2000 00:00:00 GMT
       X-Fb-Debug:
@@ -57,7 +57,7 @@ http_interactions:
   recorded_at: Thu, 10 Sep 2015 09:47:15 GMT
 - request:
     method: get
-    uri: https://graph.facebook.com/v3.1/search?access_token=DUMMY_TOKEN&q=invalidsssssssssssssss&type=adinterest
+    uri: https://graph.facebook.com/v3.2/search?access_token=DUMMY_TOKEN&q=invalidsssssssssssssss&type=adinterest
     body:
       encoding: US-ASCII
       string: ''
@@ -88,7 +88,7 @@ http_interactions:
       Cache-Control:
       - private, no-cache, no-store, must-revalidate
       Facebook-Api-Version:
-      - v3.1
+      - v3.2
       Expires:
       - Sat, 01 Jan 2000 00:00:00 GMT
       X-Fb-Debug:
