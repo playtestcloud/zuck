@@ -4,7 +4,7 @@ module Zuck
   class AdGroup < RawFbObject
 
     # Known keys as per
-    # [fb docs](https://developers.facebook.com/docs/reference/ads-api/adgroup/v3.2)
+    # [fb docs](https://developers.facebook.com/docs/reference/ads-api/adgroup/v3.3)
     known_keys :id,
                :account_id,
                :ad_review_feedback,

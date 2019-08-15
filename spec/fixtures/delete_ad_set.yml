@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: post
-    uri: https://graph.facebook.com/v3.2/6029725595466
+    uri: https://graph.facebook.com/v3.3/6029725595466
     body:
       encoding: US-ASCII
       string: access_token=DUMMY_TOKEN&method=delete
@@ -31,7 +31,7 @@ http_interactions:
       Cache-Control:
       - private, no-cache, no-store, must-revalidate
       Facebook-Api-Version:
-      - v3.2
+      - v3.3
       Expires:
       - Sat, 01 Jan 2000 00:00:00 GMT
       X-Fb-Debug:

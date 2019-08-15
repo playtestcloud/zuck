@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://graph.facebook.com/v3.2/6029725596866?access_token=DUMMY_TOKEN&fields=id,account_id,adgroup_review_feedback,adgroup_status,bid_amount,campaign_id,campaign_group_id,created_time,creative,failed_delivery_checks,name,targeting,tracking_specs,updated_time
+    uri: https://graph.facebook.com/v3.3/6029725596866?access_token=DUMMY_TOKEN&fields=id,account_id,adgroup_review_feedback,adgroup_status,bid_amount,campaign_id,campaign_group_id,created_time,creative,failed_delivery_checks,name,targeting,tracking_specs,updated_time
     body:
       encoding: US-ASCII
       string: ''
@@ -33,7 +33,7 @@ http_interactions:
       Cache-Control:
       - private, no-cache, no-store, must-revalidate
       Facebook-Api-Version:
-      - v3.2
+      - v3.3
       Expires:
       - Sat, 01 Jan 2000 00:00:00 GMT
       X-Fb-Debug:
@@ -52,7 +52,7 @@ http_interactions:
   recorded_at: Thu, 10 Sep 2015 09:47:29 GMT
 - request:
     method: post
-    uri: https://graph.facebook.com/v3.2/6029725596866
+    uri: https://graph.facebook.com/v3.3/6029725596866
     body:
       encoding: US-ASCII
       string: ! "-------------RubyMultipartPost\r\nContent-Disposition: form-data;
@@ -107,7 +107,7 @@ http_interactions:
       Cache-Control:
       - private, no-cache, no-store, must-revalidate
       Facebook-Api-Version:
-      - v3.2
+      - v3.3
       Expires:
       - Sat, 01 Jan 2000 00:00:00 GMT
       Vary:
@@ -130,7 +130,7 @@ http_interactions:
   recorded_at: Thu, 10 Sep 2015 09:47:29 GMT
 - request:
     method: post
-    uri: https://graph.facebook.com/v3.2/6029725596866
+    uri: https://graph.facebook.com/v3.3/6029725596866
     body:
       encoding: US-ASCII
       string: ! "-------------RubyMultipartPost\r\nContent-Disposition: form-data;
@@ -185,7 +185,7 @@ http_interactions:
       Cache-Control:
       - private, no-cache, no-store, must-revalidate
       Facebook-Api-Version:
-      - v3.2
+      - v3.3
       Expires:
       - Sat, 01 Jan 2000 00:00:00 GMT
       Vary:
@@ -208,7 +208,7 @@ http_interactions:
   recorded_at: Thu, 10 Sep 2015 09:47:30 GMT
 - request:
     method: get
-    uri: https://graph.facebook.com/v3.2/6029725596866?access_token=DUMMY_TOKEN&fields=id,account_id,adgroup_review_feedback,adgroup_status,bid_amount,campaign_id,campaign_group_id,created_time,creative,failed_delivery_checks,name,targeting,tracking_specs,updated_time
+    uri: https://graph.facebook.com/v3.3/6029725596866?access_token=DUMMY_TOKEN&fields=id,account_id,adgroup_review_feedback,adgroup_status,bid_amount,campaign_id,campaign_group_id,created_time,creative,failed_delivery_checks,name,targeting,tracking_specs,updated_time
     body:
       encoding: US-ASCII
       string: ''
@@ -239,7 +239,7 @@ http_interactions:
       Cache-Control:
       - private, no-cache, no-store, must-revalidate
       Facebook-Api-Version:
-      - v3.2
+      - v3.3
       Expires:
       - Sat, 01 Jan 2000 00:00:00 GMT
       X-Fb-Debug:

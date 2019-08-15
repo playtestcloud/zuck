@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://graph.facebook.com/v3.2/search?access_token=DUMMY_TOKEN&q=ick%20spickeby&type=adinterest
+    uri: https://graph.facebook.com/v3.3/search?access_token=DUMMY_TOKEN&q=ick%20spickeby&type=adinterest
     body:
       encoding: US-ASCII
       string: ''
@@ -33,7 +33,7 @@ http_interactions:
       Cache-Control:
       - private, no-cache, no-store, must-revalidate
       Facebook-Api-Version:
-      - v3.2
+      - v3.3
       Expires:
       - Sat, 01 Jan 2000 00:00:00 GMT
       X-Fb-Debug:
